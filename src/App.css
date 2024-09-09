@@ -1,0 +1,20 @@
+/* App.css */
+
+/* Ensure the full page height for main sections */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.about-us-page,
+.home {
+  min-height: 100vh; /* Ensure each section takes up full height */
+  padding-top: 100px; /* Adjust padding to avoid overlap with fixed nav */
+}
+
+/* Ensure no overlapping content */
+.container {
+  margin: 0px 174px 174 0px;
+}
