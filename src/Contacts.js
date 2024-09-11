@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Contacts.css";
-import ContactUs from "./ContactUs";
+import ContactUs from "./ContactUs"
 
 function Contacts() {
   return (

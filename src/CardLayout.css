@@ -1,0 +1,41 @@
+.card-container {
+  width: 800px;
+  display: block;
+  margin: auto;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-left: 20px;
+}
+
+.client img {
+  border: none;
+  width: 70px; /* Set the width */
+  height: 70px; /*Set the height */
+  border-radius: 50% !important;
+  object-fit: cover; /* Ensure the image fits within the circle */
+}
+
+.card-body {
+  margin-top: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.icons {
+  font-size: 24px;
+}
