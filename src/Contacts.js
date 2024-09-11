@@ -1,26 +1,45 @@
 import React from "react";
+import {
+  faEnvelope,
+  faPhone,
+  faLocationPin,
+  faBusinessTime,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import profile from "./img/gallery/anita.png";
 import "./Contacts.css";
+import ContactUs from "./ContactUs";
 
 function Contacts() {
   return (
-    <div className="Contacts-content">
-      <div className="row">
-        <h1>What are our clients saying about us</h1>
-        <div className="col-md-6">
+    <div className="contact-info container">
+      <div className="row mt-5">
+        <h1 className="text-center">Contacts</h1>
+        <div className="col-md text-center">
+          <FontAwesomeIcon icon={faEnvelope} className="icon" />
+          <h4>Email Address</h4>
+          <p>manthata@gmail.com</p>
+        </div>
+        <div className="col-md text-center">
+          <FontAwesomeIcon icon={faPhone} className="icon" />
+          <h4>Phone Number</h4>
+          <p>0123456789</p>
+        </div>
+        <div className="col-md text-center">
+          <FontAwesomeIcon icon={faLocationPin} className="icon" />
+          <h4>Office Location</h4>
+          <p>Turfloop Mankweng</p>
+        </div>
+        <div className="col-md text-center">
+          <FontAwesomeIcon icon={faBusinessTime} className="icon" />
+          <h4>Work Day</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            convallis, sapien nec hendrerit varius, lacus dui dictum nulla, at
-            pharetra felis sapien non mauris.
+            Mon-Fri: 09:00 - 17:00
+            <br />
+            Sat-Sun: 09:00 - 13:00
           </p>
-          <div className="profile-details">
-            <img src={profile} alt="Profile"/>
-            <h5><strong>Profile Name</strong></h5>
-          </div>
-          
         </div>
       </div>
+      <ContactUs />
     </div>
   );
 }
