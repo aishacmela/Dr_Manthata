@@ -1,0 +1,84 @@
+.registerContent h1 {
+  color: #333;
+}
+.registerContent {
+  background-color: #f5f7f8;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 100px;
+}
+form {
+  /* background-color: #fff; */
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid #1ca4ac;
+  box-shadow: 15px #333;
+  backdrop-filter: blur(60px);
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+}
+label {
+  font-size: 14px;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1ca4ac;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #227b94;
+}
+.password-container {
+  margin-bottom: 15px;
+}
+.password-container a {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: rgb(40, 55, 121);
+  text-decoration: none;
+}
+.password-container a:hover {
+  text-decoration: underline;
+}
+h5 {
+  font-size: 14px;
+  color: #555;
+}
+h5 a {
+  color: rgb(40, 55, 121);
+  text-decoration: none;
+}
+h5 a:hover {
+  text-decoration: underline;
+}
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: auto;
+  margin: 10px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
